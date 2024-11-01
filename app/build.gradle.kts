@@ -69,6 +69,13 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation(libs.navigation.compose)
     implementation(libs.compose.material)
+    implementation(libs.retrofit)
+    implementation(libs.gsonConverter)
+    implementation(libs.androidx.lifecycle.livedata.ktx)
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+    implementation(libs.androidx.compose.runtime.livedata)
+    implementation(libs.coil.compose)
+
 
 
 }

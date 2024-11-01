@@ -1,4 +1,4 @@
-package com.example.resepku_jetpack // Ensure this matches
+package com.example.resepku_jetpack
 
 import HomePage
 import android.os.Bundle
@@ -9,7 +9,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            HomePage() // Call the main composable function
+            HomePage()
         }
     }
 }
